@@ -34,8 +34,6 @@ param(
     [switch]   $LastAccessTime
 )
 
-Write-Output("`nrotatorgol version 6.6.6")
-
 # Check if correct parameters are used
 if (-not $LogsPath) {
     Write-Error('Please specify the -LogsPath required parameter')
